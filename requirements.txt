@@ -1,0 +1,17 @@
+opencv-python==4.8.0.76
+mediapipe==0.10.21
+numpy==1.26.3
+passlib==1.7.4
+PyJWT==2.8.0
+python-jose==3.3.0
+streamlit==1.29.0
+tensorflow==2.18.0
+SpeechRecognition==3.10.0
+PyAudio==0.2.14
+reportlab==4.0.9
+fpdf==1.7.2
+transformers==4.35.2
+torch==2.1.1
+accelerate==0.25.0
+sentencepiece==0.1.99
+datasets>=2.14.0
