@@ -32,7 +32,9 @@ class AssessmentResults:
 
 class AIReportGenerator:
     def __init__(self):
-        api_key = os.getenv("GEMINI_API_KEY")
+        import streamlit as st
+        api_key = st.secrets["GEMINI_API_KEY"]
+
         if not api_key:
             raise ValueError("Please set GEMINI_API_KEY in your environment variables.")
         genai.configure(api_key=api_key)
