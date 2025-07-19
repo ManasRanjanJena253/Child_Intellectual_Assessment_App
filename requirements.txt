@@ -21,3 +21,4 @@ sphinx
 streamlit
 urllib3-secure-extra
 vosk
+google-generativeai
