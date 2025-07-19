@@ -6,8 +6,6 @@ filelock
 fpdf
 ipython
 ipywidgets
-cython         # Required for jnius
-jnius
 keyring
 mediapipe
 opencv-contrib-python
