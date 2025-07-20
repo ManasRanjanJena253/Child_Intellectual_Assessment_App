@@ -8,8 +8,8 @@ ipython
 ipywidgets
 keyring
 mediapipe
-opencv-contrib-python
-opencv-python
+opencv-python-headless
+opencv-contrib-python-headless
 pyopenssl
 pypdf
 pypdf2
@@ -22,6 +22,4 @@ streamlit
 urllib3-secure-extra
 vosk
 google-generativeai
-mediapipe
-opencv-python
 pillow
